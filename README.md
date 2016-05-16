@@ -5,7 +5,7 @@ Home: https://github.com/kwilcox/pygc
 
 Package license: GNU General Public License v3 (GPLv3)
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Great Circle calculations in Python using Vincenty's formulae
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygc-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/pygc-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygc-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygc-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/version.svg)](https://anaconda.org/conda-forge/pygc)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/downloads.svg)](https://anaconda.org/conda-forge/pygc)
 
 
 Updating pygc-feedstock
