@@ -7,9 +7,21 @@ Package license: GNU General Public License v3 (GPLv3)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Great Circle calculations in Python using Vincenty's formulae
+Summary: Great Circle calculations in Python using Vincenty's formulae.
 
 
+
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygc-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygc-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygc-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/version.svg)](https://anaconda.org/conda-forge/pygc)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/downloads.svg)](https://anaconda.org/conda-forge/pygc)
 
 Installing pygc
 ===============
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `pygc` available on your platform 
 ```
 conda search pygc --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pygc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pygc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pygc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pygc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pygc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pygc-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/version.svg)](https://anaconda.org/conda-forge/pygc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pygc/badges/downloads.svg)](https://anaconda.org/conda-forge/pygc)
 
 
 Updating pygc-feedstock
