@@ -3,7 +3,7 @@ About pygc
 
 Home: https://github.com/kwilcox/pygc
 
-Package license: GNU General Public License v3 (GPLv3)
+Package license: GPL-3.0
 
 Feedstock license: BSD 3-Clause
 

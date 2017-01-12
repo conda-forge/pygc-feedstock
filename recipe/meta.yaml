@@ -1,35 +1,37 @@
 {% set version = "1.0.0" %}
+
 package:
-    name: pygc
-    version: {{ version }}
+  name: pygc
+  version: {{ version }}
 
 source:
-    fn: pygc-{{ version }}.tar.gz
-    url: https://github.com/axiom-data-science/pygc/archive/{{ version }}.tar.gz
-    sha256: 70c5b3bdfc4d292abbdb5002ea17557da1bc977a14e812055817b341c965bc1f
+  fn: pygc-{{ version }}.tar.gz
+  url: https://github.com/axiom-data-science/pygc/archive/{{ version }}.tar.gz
+  sha256: 70c5b3bdfc4d292abbdb5002ea17557da1bc977a14e812055817b341c965bc1f
 
 build:
-    number: 0
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - numpy
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - numpy
 
 test:
-    imports:
-        - pygc
+  imports:
+    - pygc
 
 about:
-    home: https://github.com/kwilcox/pygc
-    license: GNU General Public License v3 (GPLv3)
-    summary: "Great Circle calculations in Python using Vincenty's formulae."
+  home: https://github.com/kwilcox/pygc
+  license: GPL-3.0
+  license_file: LICENSE
+  summary: "Great Circle calculations in Python using Vincenty's formulae."
 
 extra:
-    recipe-maintainers:
-        - kwilcox
-        - ocefpaf
+  recipe-maintainers:
+    - kwilcox
+    - ocefpaf
