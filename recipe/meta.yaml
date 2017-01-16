@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: pygc
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygc-{{ version }}.tar.gz
   url: https://github.com/axiom-data-science/pygc/archive/{{ version }}.tar.gz
-  sha256: 70c5b3bdfc4d292abbdb5002ea17557da1bc977a14e812055817b341c965bc1f
+  sha256: f1ef30e5f1bcd0a0af32adde6cdd6b60e2a0059e9ad95463d5293a915dab748d
 
 build:
   number: 0
@@ -26,8 +26,8 @@ test:
     - pygc
 
 about:
-  home: https://github.com/kwilcox/pygc
-  license: GPL-3.0
+  home: https://github.com/axiom-data-science/pygc
+  license: MIT
   license_file: LICENSE
   summary: "Great Circle calculations in Python using Vincenty's formulae."
 
