@@ -1,9 +1,9 @@
 About pygc
 ==========
 
-Home: https://github.com/kwilcox/pygc
+Home: https://github.com/axiom-data-science/pygc
 
-Package license: GPL-3.0
+Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
