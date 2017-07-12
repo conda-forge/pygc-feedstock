@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: pygc
@@ -7,7 +7,7 @@ package:
 source:
   fn: pygc-{{ version }}.tar.gz
   url: https://github.com/axiom-data-science/pygc/archive/{{ version }}.tar.gz
-  sha256: f1ef30e5f1bcd0a0af32adde6cdd6b60e2a0059e9ad95463d5293a915dab748d
+  sha256: 7397a6233c0ec9d4c4e5666d9ddad7a5a9af68e89401f78e3c276520652e611d
 
 build:
   number: 0
