@@ -11,17 +11,19 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
 requirements:
   host:
-    - pip
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools >=41.2
     - setuptools-scm
+    - pip
   run:
+    - python >={{ python_min }}
     - numpy
-    - python >=3.6
+    - pyproj
 
 test:
   imports:
@@ -29,6 +31,7 @@ test:
   commands:
     - pip check
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
